@@ -1,0 +1,12 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#wrapper {
+	padding-bottom: 2em;
+	min-height: 600px;
+}
+
+footer {
+	padding: 10em;
+	background-color: #eee;
+}

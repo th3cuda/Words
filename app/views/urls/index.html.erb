@@ -1,0 +1,21 @@
+
+
+<h2>Listing urls</h2>
+
+<h3>URL</h3>
+
+  <article>
+
+    <% @urls.each do |url| %>
+
+        <p><%= url.url %></p>
+
+        <p><%= link_to 'Show', url %></p>
+
+    <% end %>
+
+  </article>
+
+<br>
+
+<%= link_to 'New Url', new_url_path %>
