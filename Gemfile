@@ -31,7 +31,7 @@ gem 'bootstrap-sass', '~> 3.4.0'
 gem 'autoprefixer-rails'
 gem 'httparty', '>= 0.14.0'
 gem 'addressable', '>= 2.8.0'
-gem 'nokogiri', '>= 1.13.2'
+gem 'nokogiri', '>= 1.13.4'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.1', '>= 3.1.0'
